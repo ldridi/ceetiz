@@ -1,0 +1,19 @@
+{
+    "name": "dridi/lotfi",
+    "authors": [
+        {
+            "name": "Dridi Lotfi",
+            "email": "lotfi.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/",
+            "Test\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    }
+}
